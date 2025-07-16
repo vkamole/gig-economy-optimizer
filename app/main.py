@@ -4,11 +4,15 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-# Load data
+# Load data from Google Drive
 @st.cache_data
 def load_data():
-    # Load the Upwork dataset
-    df = pd.read_csv("data/Final_Upwork_Dataset.csv")
+    # Google Drive direct download link (replace with your file ID)
+    file_id = "1eyDAfy_P6ZNtHTC9UJxUZ6ovCBZh7nFz"
+    url = f"https://drive.google.com/uc?export=download&id={file_id}"
+    
+    # Load the dataset
+    df = pd.read_csv(url)
     
     # Map Upwork categories to Kenyan gig jobs
     kenyan_job_map = {
@@ -34,8 +38,6 @@ def load_data():
     
     return df
 
-df = load_data()
-
 # Text similarity function
 @st.cache_data
 def get_similar_jobs(query, df):
@@ -47,6 +49,12 @@ def get_similar_jobs(query, df):
 
 # Streamlit App
 st.set_page_config(page_title="Kenya Gig Connect", layout="wide")
+
+try:
+    df = load_data()
+except Exception as e:
+    st.error(f"Failed to load data: {e}")
+    st.stop()
 
 st.title("🇰🇪 Kenya Gig Connect")
 st.subheader("Matching Kenyan workers with optimal job opportunities")
@@ -130,4 +138,4 @@ st.sidebar.info("""
 
 # Footer
 st.markdown("---")
-st.markdown("© 2023 Kenya Gig Connect | Data from Upwork (adapted for Kenya)")
+st.markdown("© 2025 Kenya Gig Connect | Data hosted on Google Drive")
