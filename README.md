@@ -15,6 +15,9 @@ This project leverages **AI-driven job matching** to optimize Kenya’s informal
 ✅ Promotes fair wages and financial inclusion  
 ✅ Improves access to consistent work opportunities  
 
+Here is the deployed application link: https://gig-worker.streamlit.app/
+
+
 ---
 
 ## **✨ Key Features**  
