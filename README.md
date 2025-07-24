@@ -1,4 +1,4 @@
-# **Kenya Gig Economy Optimizer**  
+# **Kazi Bora - Gig Economy Optimizer**  
 ### **Connecting Informal Workers with Opportunities Using AI**  
 
 ![Streamlit App Demo](https://img.shields.io/badge/Platform-Streamlit-FF4B4B?logo=streamlit)  
@@ -18,6 +18,8 @@ This project leverages **AI-driven job matching** to optimize Kenya’s informal
 Here is the deployed application link: https://gig-worker.streamlit.app/
 
 Here is the pitch deck presentation for the application: https://gamma.app/docs/KaziBora-AI-Powered-Gig-Economy-Optimization-for-Kenya-4p6e2xku0jeyvqt?mode=doc
+
+Here is a video demo for the working of the application: https://drive.google.com/file/d/1roSQNMqM6_Tjtkg2jj3HW1URo4YkhSjs/view?usp=sharing
 
 
 ---
