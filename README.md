@@ -16,6 +16,7 @@ This project leverages **AI-driven job matching** to optimize Kenya’s informal
 ✅ Improves access to consistent work opportunities  
 
 Here is the deployed application link: https://gig-worker.streamlit.app/
+Here is the pitch deck presentation for the application: https://gamma.app/docs/KaziBora-AI-Powered-Gig-Economy-Optimization-for-Kenya-4p6e2xku0jeyvqt?mode=doc
 
 
 ---
